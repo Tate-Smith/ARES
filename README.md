@@ -1,1 +1,1 @@
-# ARES
+# ARES (Autonomous Resource-Efficient Spacecraft) 
