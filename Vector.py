@@ -3,6 +3,10 @@ class Vector:
         self.__x = x
         self.__y = y
 
+    def __init__(self, vector):
+        self.__x = vector.getX()
+        self.__y = vector.getY()
+
     def scale(self, scalar):
         self.__x *= scalar
         self.__y *= scalar
@@ -24,3 +28,6 @@ class Vector:
     
     def getY(self):
         return self.__y
+    
+    def __str__(self):
+        return f"({self.__x},{self.__y})"
