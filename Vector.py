@@ -23,6 +23,10 @@ class Vector:
         self.__x -= vector.getX()
         self.__y -= vector.getY()
 
+    def setPosition(self, x, y):
+        self.__x = x
+        self.__y = y
+
     def getX(self):
         return self.__x
     
